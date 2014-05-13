@@ -80,6 +80,7 @@ Chrome extensions and the Chrome Web Store are filled with apps and extensions w
 
 ## VIDEO (care, audio wee bit loud)
 best viewed at fullscreen, 720p
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/I1az7uyw3Sg/0.jpg)](http://www.youtube.com/watch?v=I1az7uyw3Sg)
 
 ## Sources
