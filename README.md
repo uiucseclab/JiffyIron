@@ -5,6 +5,11 @@ JiffyIron is a proof of concept for stealthy exfiltration of browsing activity u
 ## Ok uh, why?
 Chrome extensions and the Chrome Web Store are filled with apps and extensions with various uses - some useful, many not so much. This project aims to explore the resources granted to a Chrome extension when installed. Although JiffyIron focuses on the possible subverted actions by an extension, any small amount of superficial/user-valued functionality would easily serve as a cover-up to masqureade as an honest add-on (for instance, in the web store). In short, this project mainly pokes around at Chrome's Content Security Policy and extension capabilities to show a devestating flow of plauibly sensitive information into an attacker's possesion.
 
+## WHO AM I?
+- Jase Hannah, and this is an assignment for cs460: security lab
+- rhannah2@illinois.edu
+- UIUC
+
 ## Dependencies
 - Server: Python 2.7.6
 - Extension: Google Chrome (created mostly on version 34+)
