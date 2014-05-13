@@ -78,6 +78,9 @@ Chrome extensions and the Chrome Web Store are filled with apps and extensions w
 - the server is a fairly routine python server, where the client work and server work are both delegated to threads. the threads are daemonized in effect to remain responsive to actions taken on the main thread (e.g. ctrl-c)
 - the stolen data is smuggled out via the `Content-Type` header. the sheer size of this field and the abnormal content should raise suspicion to any traffic monitoring, but the RSA encryption should keep the data obfuscated at very least. There are certainly alternatives to using this technique, but they are yet explored in this. 
 
+## VIDEO
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/I1az7uyw3Sg/0.jpg)](http://www.youtube.com/watch?v=I1az7uyw3Sg)
+
 ## Sources
 - Tom Wu - PKCS#1 RSA crypto library - /src/crypto/*
 	- http://www-cs-students.stanford.edu/~tjw/jsbn/
