@@ -1,0 +1,48 @@
+<html style="word-wrap:break-word;">
+<head>
+<link rel="stylesheet" type="text/css" href="viewer.css">
+<script src="../src/crypto/jsbn.js"></script>
+<script src="../src/crypto/jsbn2.js"></script>
+<script src="../src/crypto/prng4.js"></script>
+<script src="../src/crypto/rng.js"></script>
+<script src="../src/crypto/rsa.js"></script>
+<script src="../src/crypto/rsa2.js"></script>
+<script src="../src/js/jquery-2.1.1.min.js"></script>
+<script src="./rsatest.js"></script>
+<script src="./viewer.js"></script>
+</head>
+
+<body>
+
+<input id="plaintext" type="text">
+<button onclick="javascript:doEncrypt();">encrypt</button>
+<br/>
+<textarea id="ciphertext" cols="60" rows="10"></textarea>
+<br/>
+<button onclick="javascript:doDecrypt();">decrypt</button>
+<span>--></span>&nbsp;&nbsp;<span id="decrypttext"></span>
+
+<hr/>
+<div id="page-wrapper">
+	<h2>file reader</h2>
+	<div> 
+		<button id="unload">Unload File</button>
+		<input type="file" id="fileInput">
+	</div>
+</div>
+	<table>
+		<thead>
+		<tr>
+			<th>sent time</th>
+			<th>@url</th>
+			<th>key log</th>
+			<th>DOM targets</th>
+		</tr>
+	</thead>
+	<tbody id="data">
+
+	</tbody>
+	</table>
+
+</body>
+</html>
